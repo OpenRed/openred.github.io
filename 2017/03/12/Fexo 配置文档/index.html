@@ -30,7 +30,7 @@
 启用1打开博客根目录的 _config.yml 设为 theme: fexo
 升级123$ cd themes/fexo$ git commit -am &amp;apos;update&amp;apos;$ git pul">
 <meta property="og:image" content="http://p1.bpimg.com/567571/2098881833c5de8c.png">
-<meta property="og:updated_time" content="2017-03-12T05:29:34.166Z">
+<meta property="og:updated_time" content="2017-03-18T08:48:01.331Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Fexo 配置文档">
 <meta name="twitter:description" content="开始博主搭建的极简 Fexo 博客如下：
@@ -60,7 +60,7 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?57e94d016e201fba3603a8a2b0263af0";
+      hm.src = "//hm.baidu.com/hm.js?82a44350e751d7ffad4371df246b9426";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
@@ -229,11 +229,6 @@
 
 
       
-        <span>
-          <i class="icon-comment"></i>
-          <a href="https://openred.github.io/2017/03/12/Fexo 配置文档/#disqus_thread"></a>
-        </span>
-      
 
       
       <i class="fa fa-eye"></i> 
@@ -243,6 +238,9 @@
         </span>
       
 
+      
+        <i class="icon-comment"></i> 
+        <span class="ds-thread-count" data-thread-key="post-Fexo 配置文档"><i class="fa fa-spinner fa-spin"></i></span> 条评论
       
       
     </div>
@@ -336,8 +334,14 @@
 </ol>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">html.page-home &#123;</div><div class="line">  position: absolute;</div><div class="line">  top: 0;</div><div class="line">  left: 0;</div><div class="line">  right: 0;</div><div class="line">  bottom: 0;</div><div class="line">  background-image: url(&apos;/images/bg.jpg&apos;);</div><div class="line">  background-color: transparent;</div><div class="line">  background-size: cover;</div><div class="line">  background-position: center center;</div><div class="line">  background-repeat: no-repeat;</div><div class="line"></div><div class="line">  /*background: linear-gradient( #1abc9c, transparent), linear-gradient( 90deg, skyblue, transparent), linear-gradient( -90deg, coral, transparent);*/</div><div class="line">  /*background-blend-mode: screen;*/</div><div class="line"></div><div class="line">  /*background: linear-gradient(to left, #5f2c82, #49a09d);*/</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="关于写作"><a href="#关于写作" class="headerlink" title="关于写作"></a>关于写作</h2><p>默认md 文档如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: article title</div><div class="line">date: 2017-03-02 01:51:26</div><div class="line">tags: test frist-article</div><div class="line">categories: default</div><div class="line">---</div><div class="line"># Hello,hahahahaha......</div></pre></td></tr></table></figure></p>
-<h2 id="第三方服务"><a href="#第三方服务" class="headerlink" title="第三方服务"></a>第三方服务</h2><p>启用统计<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">google_analytics:</div><div class="line">baidu_analytics: 57e94d016sfsf1fba3xxxx8a2b0263af0</div></pre></td></tr></table></figure></p>
-<h2 id="启用评论"><a href="#启用评论" class="headerlink" title="启用评论"></a>启用评论</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">disqus_shortname: forsigner</div><div class="line"># duoshuo_shortname: forsigner</div></pre></td></tr></table></figure>
+<h2 id="第三方服务"><a href="#第三方服务" class="headerlink" title="第三方服务"></a>第三方服务</h2><p>启用统计<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">google_analytics:</div><div class="line">baidu_analytics: 82a44350e751d7ffad4371df246b9426</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>这里需要说一下的是，我们需要去<a href="http://tongji.baidu.com/" target="_blank" rel="external">百度统计</a>注册一个账号，然后找到一串数字替换为baidu_analytics 的值，否则就会统计为博主的博客访问次数了！切记！！！</p>
+</blockquote>
+<h2 id="启用评论"><a href="#启用评论" class="headerlink" title="启用评论"></a>启用评论</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># disqus_shortname: yourname</div><div class="line">duoshuo_shortname: yourname</div><div class="line">gentie_key: fdc48cf462ca9b6043e87efdd483ed39</div></pre></td></tr></table></figure>
+<blockquote>
+<p>这里需要说一下的是，我们需要去<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>注册一个账号，然后找到一串数字替换为gentie_key 的值，否则就会就会出错！切记！！！</p>
+</blockquote>
 <h2 id="使用-Mathjax"><a href="#使用-Mathjax" class="headerlink" title="使用 Mathjax"></a>使用 Mathjax</h2><ol>
 <li>要使用 Mathjax，可以通过 Hexo 插件 hexo-renderer-mathjax支持</li>
 <li>查看 <a href="https://github.com/phoenixcw/hexo-renderer-mathjax" target="_blank" rel="external">hexo-renderer-mathjax</a></li>
@@ -491,36 +495,43 @@
   
       <div class="fexo-comments comments-post">
     
-  <section class="disqus-comments">
-    <div id="disqus_thread">
-      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
+
+    
+  <section class="duoshuo-comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="post-Fexo 配置文档" 
+      data-title="Fexo 配置文档" data-url="https://openred.github.io/2017/03/12/Fexo 配置文档/index.html"></div>
+    <!-- 多说评论框 end -->
   </section>
 
-  <script>
-    var disqus_shortname = 'openred';
-    
-    var disqus_url = 'https://openred.github.io/2017/03/12/Fexo 配置文档/';
-    
-    (function(){
-      var dsq = document.createElement('script');
-      dsq.type = 'text/javascript';
-      dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+
+
+
+  <script type="text/javascript">
+  var duoshuoQuery = {short_name:"openred"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
   </script>
 
-  <script id="dsq-count-scr" src="//openred.disqus.com/count.js" async></script>
-
-
 
     
+  <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: document.location.href, 
+    sourceId: "",
+    productKey: "fdc48cf462ca9b6043e87efdd483ed39",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
 
-
-
-
-    
 
   </div>
 

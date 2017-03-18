@@ -27,7 +27,7 @@
 找到 blog 根目录下的 _config.yml ：替换所有的 yoursite.com 为你自己的网址
 找到 blog 根目录下的 db.json ：替换所有的 yoursite.com 为你自己的网址
 然后强力删除掉 blog/public 下的 search 文">
-<meta property="og:updated_time" content="2017-03-12T06:37:20.923Z">
+<meta property="og:updated_time" content="2017-03-18T08:47:48.978Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Fexo 问题解决">
 <meta name="twitter:description" content="如果在搜索页面搜索相关文章时，链接跳转到别的页面，那么可能是没有替换掉默认网址 yoursite.com 所致。解决办法如下：
@@ -55,7 +55,7 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?57e94d016e201fba3603a8a2b0263af0";
+      hm.src = "//hm.baidu.com/hm.js?82a44350e751d7ffad4371df246b9426";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
@@ -219,11 +219,6 @@
 
 
       
-        <span>
-          <i class="icon-comment"></i>
-          <a href="https://openred.github.io/2017/03/12/Fexo问题解决/#disqus_thread"></a>
-        </span>
-      
 
       
       <i class="fa fa-eye"></i> 
@@ -233,6 +228,9 @@
         </span>
       
 
+      
+        <i class="icon-comment"></i> 
+        <span class="ds-thread-count" data-thread-key="post-Fexo问题解决"><i class="fa fa-spinner fa-spin"></i></span> 条评论
       
       
     </div>
@@ -400,36 +398,43 @@
   
       <div class="fexo-comments comments-post">
     
-  <section class="disqus-comments">
-    <div id="disqus_thread">
-      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
+
+    
+  <section class="duoshuo-comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="post-Fexo问题解决" 
+      data-title="Fexo 问题解决" data-url="https://openred.github.io/2017/03/12/Fexo问题解决/index.html"></div>
+    <!-- 多说评论框 end -->
   </section>
 
-  <script>
-    var disqus_shortname = 'openred';
-    
-    var disqus_url = 'https://openred.github.io/2017/03/12/Fexo问题解决/';
-    
-    (function(){
-      var dsq = document.createElement('script');
-      dsq.type = 'text/javascript';
-      dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+
+
+
+  <script type="text/javascript">
+  var duoshuoQuery = {short_name:"openred"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
   </script>
 
-  <script id="dsq-count-scr" src="//openred.disqus.com/count.js" async></script>
-
-
 
     
+  <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: document.location.href, 
+    sourceId: "",
+    productKey: "fdc48cf462ca9b6043e87efdd483ed39",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
 
-
-
-
-    
 
   </div>
 
